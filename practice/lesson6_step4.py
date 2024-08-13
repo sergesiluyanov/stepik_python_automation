@@ -9,9 +9,9 @@ try:
     browser.get(link)
 
     input1 = browser.find_element(By.CSS_SELECTOR, "input[name='first_name']")
-    input1.send_keys("serge")
+    input1.send_keys("Serge")
     input2 = browser.find_element(By.NAME, 'last_name')
-    input2.send_keys("siluyano")
+    input2.send_keys("Siluyano")
     input3 = browser.find_element(By.CLASS_NAME, "city")
     input3.send_keys("Togliatti")
     input4 = browser.find_element(By.ID, "country")
